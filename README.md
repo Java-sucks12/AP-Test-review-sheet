@@ -8,3 +8,5 @@ If you have trouble understanding post an issue. The file names are not equal to
 If you know someone who needs help please share.
 
 Do not copy from stack overflow, that is just a meme. Please don't do it unless you know what you are reading.
+
+Before submitting, check to see your code compiles. You can look up online java compiler to see if it works or you can download one.
