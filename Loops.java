@@ -46,5 +46,19 @@ public class Loops{
         }
         
     }
+    
+    public void dumbPyramidShit(){
+        //self explanitory
+        //only place where i starts at 1
+        
+        String str = "";
+        for (int i=1; i < 11; i++){
+            for (int j=0; j<i; j++){
+                  str += "*";
+            }
+            System.out.println(str);
+        }
+        //it prints pyramid.
+    }
 
 }
