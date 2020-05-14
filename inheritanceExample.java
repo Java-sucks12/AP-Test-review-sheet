@@ -7,7 +7,19 @@ public class Citizen extends Human{
     String occupation;
     double pay;
     
-    public Citizen(String 
+    public Citizen(String name, int age, String occupation, double pay){
+        if (age >= 21){
+         super(name, age, true);   
+        }
+        else{
+         super(name, age, false);   
+        }
+        this.occupation = occupation;
+        this.pay = pay;
+        
+    }
+    
+    
     
     
 }
