@@ -25,4 +25,27 @@ public class StringShit{
       }
       
       
+      //important that you read this.
+      public void casting(){
+       String str = "42";
+       int num;
+       double num2;
+       //String to int
+       num = Integer.valueOf(str);
+       
+       //int to double (automatic)
+       num2 = num;
+       
+       //double to int
+       num = (int) num2;
+            
+       //int to String
+       str = "" + num;
+            
+            
+            
+            
+      }
+      
+      
 }
